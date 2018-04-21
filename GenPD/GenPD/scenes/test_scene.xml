@@ -1,0 +1,17 @@
+<scene>
+  <primitives>
+    <!--<plane nx="0.0" ny="1" nz="0.0" value="-10"></plane>-->
+    <!--<sphere cx="-22.0" cy="-10.0" cz="0.0" radius="10"></sphere>-->
+    <!--<sphere cx="0.0" cy="2.0" cz="0.0" radius="4"></sphere>-->
+    <!--<torus cx="0.0" cy="2.0" cz="0.0" major="4" minor="1"></torus>-->
+
+    <!--<sphere cx="0.0" cy="8.0" cz="0.0" vy="-2.0" radius="2"></sphere>-->
+    <!--<torus cx="0.0" cy="-5.0" cz="0.0" major="4" minor="1"></torus>-->
+    
+    <!--<sphere cx="0.0" cy="10.0" cz="-4.0" vy="-5.0" radius="3" start="80"></sphere>
+    <torus cx="0.0" cy="-10" cz="-4.0" major="6" minor="2"></torus>-->
+    
+    <!--<cube cx="0.0" cy="4.0" cz="0.0" hx="1" hy="1" hz="2"></cube>-->
+    <!--<obj cx="-0" cy="-2.5" cz="-0" scale="1"></obj>-->
+  </primitives>
+</scene>

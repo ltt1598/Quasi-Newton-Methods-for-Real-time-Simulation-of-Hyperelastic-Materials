@@ -1,0 +1,12 @@
+SubspaceMaxD        10
+SubspaceCurrentD    10
+SubspaceHistoryWdw  0
+EnableRBF          1
+RBFE                10
+RBFRandomCenter     1
+RBFAffineTerm       1
+RBFKernelType       1
+HMMaxD              10
+HMCurrentD          1
+HMMaxHierarchy      10
+HMCurrentHierarchy  10

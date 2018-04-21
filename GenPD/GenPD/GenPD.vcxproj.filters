@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{f1622af9-6321-421a-a38b-622848dea209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{c8cb5f2e-aeb4-4780-8ade-946d96448622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\camera">
+      <UniqueIdentifier>{d05e9219-7096-4090-afdc-9fc623d67f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{bb62de3b-89b5-4fb0-a556-3898f71505a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\timer">
+      <UniqueIdentifier>{a3a22766-e478-4471-bfad-6e01ec2c1a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\io">
+      <UniqueIdentifier>{72ea6443-a62c-4a33-8f0f-47d3f970eb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\io\image">
+      <UniqueIdentifier>{999933e2-8e7b-4cd8-9899-8f14cee6378c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\io\mesh">
+      <UniqueIdentifier>{3d39e926-b12b-40d2-ae6e-d15330e29386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\io\xml">
+      <UniqueIdentifier>{46c22c6b-5efc-466c-b649-b94c04a29ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\matlab_debugger">
+      <UniqueIdentifier>{5fe5d2f8-4234-4920-8e83-6edb596f333d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\opengl">
+      <UniqueIdentifier>{1f6e621d-f84e-442e-b28c-53e061bcfd3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\handles">
+      <UniqueIdentifier>{1fa580b6-6127-4c51-8047-45578df00a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\mesh">
+      <UniqueIdentifier>{232c85a1-80e5-4060-815f-30e92f485b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\constraints">
+      <UniqueIdentifier>{1083ce1b-fc37-401d-98e4-a4eb637d1313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\simulation">
+      <UniqueIdentifier>{ac08339d-2e17-46dc-a615-f39ce7aabe82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{1f5701c2-957f-4c67-beae-c7062d3c329c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math\WunderSVD">
+      <UniqueIdentifier>{ad68509b-036f-400b-a770-65ef780b2e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\scene">
+      <UniqueIdentifier>{47a5b21e-3d1a-49d3-8669-865734b062d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\interaction">
+      <UniqueIdentifier>{329186a8-a9e7-4359-a214-da4d9b4fe00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math\tensor">
+      <UniqueIdentifier>{47262523-496f-4ac4-a333-c1dfa8dda8cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wunderSVD\svd3x3.cpp">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wunderSVD\WunderSVD3x3.cpp">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClCompile>
+    <ClCompile Include="source\anttweakbar_wrapper.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fps.cpp">
+      <Filter>Source Files\framework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io_mesh.cpp">
+      <Filter>Source Files\framework\io\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stb_image.c">
+      <Filter>Source Files\framework\io\image</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stb_image_write.c">
+      <Filter>Source Files\framework\io\image</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tinyxml2.cpp">
+      <Filter>Source Files\framework\io\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="source\matlab_debugger.cpp">
+      <Filter>Source Files\matlab_debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glsl_wrapper.cpp">
+      <Filter>Source Files\framework\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\handle.cpp">
+      <Filter>Source Files\core\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mesh.cpp">
+      <Filter>Source Files\core\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\constraint.cpp">
+      <Filter>Source Files\core\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\constraint_attachment.cpp">
+      <Filter>Source Files\core\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\constraint_penalty.cpp">
+      <Filter>Source Files\core\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\constraint_spring.cpp">
+      <Filter>Source Files\core\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\constraint_tet.cpp">
+      <Filter>Source Files\core\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulation.cpp">
+      <Filter>Source Files\core\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math_headers.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="source\primitive.cpp">
+      <Filter>Source Files\framework\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scene.cpp">
+      <Filter>Source Files\framework\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selection_tool.cpp">
+      <Filter>Source Files\framework\interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tensor_math.cpp">
+      <Filter>Source Files\math\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\camera.cpp">
+      <Filter>Source Files\framework\camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\global_headers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\igl_inline.h">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\Singular_Value_Decomposition_Givens_QR_Factorization_Kernel.hpp">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\Singular_Value_Decomposition_Jacobi_Conjugation_Kernel.hpp">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\Singular_Value_Decomposition_Kernel_Declarations.hpp">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\Singular_Value_Decomposition_Main_Kernel_Body.hpp">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\Singular_Value_Decomposition_Preamble.hpp">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\svd3x3.h">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\wunder_polar_svd.h">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wunderSVD\WunderSVD3x3.h">
+      <Filter>Source Files\math\WunderSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="source\anttweakbar_wrapper.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\fps.h">
+      <Filter>Source Files\framework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\clock.h">
+      <Filter>Source Files\framework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\timer.h">
+      <Filter>Source Files\framework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\timer_wrapper.h">
+      <Filter>Source Files\framework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\io_mesh.h">
+      <Filter>Source Files\framework\io\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stb_image.h">
+      <Filter>Source Files\framework\io\image</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stb_image_write.h">
+      <Filter>Source Files\framework\io\image</Filter>
+    </ClInclude>
+    <ClInclude Include="source\tinyxml2.h">
+      <Filter>Source Files\framework\io\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="source\matlab_debugger.h">
+      <Filter>Source Files\matlab_debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\glsl_wrapper.h">
+      <Filter>Source Files\framework\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\opengl_headers.h">
+      <Filter>Source Files\framework\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\handle.h">
+      <Filter>Source Files\core\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mesh.h">
+      <Filter>Source Files\core\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="source\constraint.h">
+      <Filter>Source Files\core\constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="source\simulation.h">
+      <Filter>Source Files\core\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math_headers.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\primitive.h">
+      <Filter>Source Files\framework\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\scene.h">
+      <Filter>Source Files\framework\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\selection_tool.h">
+      <Filter>Source Files\framework\interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="source\tensor_math.h">
+      <Filter>Source Files\math\tensor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\camera.h">
+      <Filter>Source Files\framework\camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Natvis\EigenVis.natvis">
+      <Filter>Resource Files</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>
