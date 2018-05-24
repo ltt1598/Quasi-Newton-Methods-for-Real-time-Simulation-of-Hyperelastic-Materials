@@ -2,7 +2,7 @@
 
 1. The source code is provided AS IS. The author is not responsible for any compilation issues.
 2. The code is not fully optimized due to the author's ability of coding. Feel free to accelerate it :)
-3. The project containing is source code is currently only a Visual Studio project.
+3. Only a Visual Studio build is provided in this repo.
 4. All the 3-rd party library dependencies in the Libs folder. The default path for all the dependencies is D:\Libs in the visual studio project.
 5. Basic Keyboard shortcuts:
 	a.) Camera Rotation: Alt+LeftMouseButton; Camera Panning: Alt+MiddleMouseButton; Camera Zooming: Alt:RightMouseButton
